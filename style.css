@@ -7,6 +7,12 @@ body {
     text-align: center;
 }
 
+table {
+    width: auto;
+    display: inline-block;
+    
+}
+
 h1 {
 
     background-color: white;
@@ -46,20 +52,31 @@ h2 {
 
 }
 
-#jobDuty_label{
-    display: block;
-    margin-bottom: 10px;
+table#fieldset {
+
+    width: auto;
+    display:block
+
+}
+
+
+td#jobDuty{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: right;
+    padding: 10px 10px;
+    vertical-align:top
 
     
 }
 
 
-textarea {
+td#textarea {
     vertical-align: top;
     height:110px;
     width: 200px;
     resize:none;
-    display: inline-block;
+    text-align: left
 }
 
 #sec3 {

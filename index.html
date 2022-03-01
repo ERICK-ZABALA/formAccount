@@ -172,10 +172,12 @@
     </form>
   </table>    
         
-  <table>  
+  <table id="fieldset">  
     <form>
+      <tr>
+        <td>
   
-              <fieldset>
+      <fieldset>
                 <legend>Education Status:</legend>
                 
                 <input type="radio" id="radio" name="graduated" value="graduated">
@@ -186,9 +188,10 @@
                 
                 <input type="radio" id="radio" name="noGraduate" value="noGraduate">
                 <label for="noGraduate" id="radio">Did  Not Graduate</label>
-              </fieldset>
-          
-     </form>
+        </fieldset>
+        </td>
+      </tr>    
+    </form>
   </table>
       
   <table>  
@@ -234,10 +237,10 @@
     </tr>
 
     <tr>
-      <td>
-        <label for="jobDuty" id="jobDuty_label">Job Duty:</label>
+      <td id="jobDuty">
+        <label for="jobDuty" id="jobDuty">Job Duty:</label>
       </td>
-      <td>
+      <td id="textarea">
         <textarea name="jobDuty" rows="5" cols="30"> </textarea>
       </td>
     </tr>
@@ -282,9 +285,6 @@
 </div>
 
 </form>
-
-
-
 
 </body>
 </html>
