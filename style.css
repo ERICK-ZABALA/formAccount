@@ -1,0 +1,150 @@
+body {
+
+    background-color: white;
+    height: 100px;
+    background-position: center;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+}
+
+h1 {
+
+    background-color: white;
+    text-align: left;
+    
+}
+
+h2 {
+
+    background-color: grey;
+    text-align: left;
+    padding: 3px 20px 3px 20px;
+}
+
+#h1p, #custom {
+
+    text-align: left;
+    color: tomato;
+    font-size:25px
+    
+}
+
+#sec1 {
+
+    background-color:gainsboro;
+    text-align: center;
+    padding: 20px 20px 20px 20px;    
+
+}
+
+
+#sec2 {
+
+    background-color:gainsboro;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+
+}
+
+#jobDuty_label{
+    display: block;
+    margin-bottom: 10px;
+
+    
+}
+
+
+textarea {
+    vertical-align: top;
+    height:110px;
+    width: 200px;
+    resize:none;
+    display: inline-block;
+}
+
+#sec3 {
+
+    background-color:gainsboro;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+   
+}
+
+#sec4 {
+
+    background-color:gainsboro;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+
+}
+
+
+#sec5 {
+
+    background-color:white;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    
+
+}
+
+select#educationlevel {
+    width: 600px;
+    height: 26px;
+    display: inline-block;
+
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+    text-align: right;
+}
+
+
+#button {
+    background-color: red; 
+    width: 150px;
+    height: 30px;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 8px
+  }
+
+input{
+    width: 600px;
+    height: 20px;
+    display: inline-block;
+    text-align: left;
+    border-radius: 5px
+    
+}
+
+label#radio {
+    width: 400px;
+    display: inline-block;
+    text-align: left;
+}
+input#radio {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+fieldset {
+    width: auto;
+    background-color: white;
+    display: inline-block;
+    text-align: left;
+    border-radius: 8px;
+    margin: 2% 
+    
+
+}
